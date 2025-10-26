@@ -1,0 +1,27 @@
+{
+  "name": "lora_gateway",
+  "version": "1.0.0",
+  "description": "receive lora messages of remote nodes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gixxerPS/lora_gateway.git"
+  },
+  "keywords": [
+    "lora",
+    "sx126x"
+  ],
+  "author": "db",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/gixxerPS/lora_gateway/issues"
+  },
+  "homepage": "https://github.com/gixxerPS/lora_gateway#readme",
+  "dependencies": {
+    "pigpio": "^3.3.1",
+    "serialport": "^13.0.0"
+  }
+}
